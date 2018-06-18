@@ -2,16 +2,16 @@
 
 return array(
 
-    'style' => __('static/apps/novius_tarteaucitron/css/tarteaucitron.css'),
-    'script' => __('static/apps/novius_tarteaucitron/tarteaucitron.js'),
+    'style' => 'static/apps/novius_tarteaucitron/css/tarteaucitron.css',
+    'script' => 'static/apps/novius_tarteaucitron/tarteaucitron.js',
 
     'settings' => array(
         // Panel selector
-        'hashtag' => __('#tarteaucitron'),
+        'hashtag' => '#tarteaucitron',
         // Auto consent feature
         'highPrivacy' => false,
         // Position of the banner. Can be 'top' or 'bottom'
-        'orientation' => __('top'),
+        'orientation' => 'top',
         // Display a message if an adblocker is detected
         'adblocker' => false,
         // Show a small banner on bottom right
