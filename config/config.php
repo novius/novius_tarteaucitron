@@ -21,7 +21,7 @@ return array(
         // Remove the credit link to tarteaucitron
         'removeCredit' => false,
         // Domain on which the cookie will be placed
-        //'cookieDomain' => __('.example.com'
+        //'cookieDomain' => '.example.com'
     ),
 
     'translations' => array(
