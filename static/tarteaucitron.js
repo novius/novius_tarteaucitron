@@ -171,7 +171,6 @@ var tarteaucitron = {
     },
     "load": function () {
         "use strict";
-        console.log(tarteaucitron.lang);
         var cdn = tarteaucitron.cdn,
             pathToServices = cdn + 'tarteaucitron.services.js?v=' + tarteaucitron.version,
             defaults = {
