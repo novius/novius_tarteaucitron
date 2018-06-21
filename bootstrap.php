@@ -1,7 +1,4 @@
 <?php
-/**
- * Event triggered before cache is written
- */
 
 Event::register('front.pageFound', function($params)
 {
