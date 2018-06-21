@@ -5,7 +5,7 @@
 
 Event::register('front.pageFound', function($params)
 {
-    $config = \Config::load('novius_tarteaucitron::config', false, true);
+    $config = \Config::load('novius_tarteaucitron::config');
 
     // Load style
     \Nos\Nos::main_controller()->addCss(\Arr::get($config, 'style'));
