@@ -1890,3 +1890,29 @@ tarteaucitron.services.webmecanik = {
         });
     }
 };
+
+// hotjar
+tarteaucitron.services.hotjar = {
+    "key": "hotjar",
+    "type": "support",
+    "name": "Hotjar",
+    "uri": "https://www.hotjar.com/privacy",
+    "needConsent": true,
+    "cookies": ['hjClosedSurveyInvites', '_hjDonePolls', '_hjMinimizedPolls', '_hjDoneTestersWidgets', '_hjMinimizedTestersWidgets', '_hjIncludedInSample', '_hjShownFeedbackMessage'],
+    "js": function () {
+        "use strict";
+        var a,r;
+
+        window.hj = window.hj || function(){
+            (window.hj.q=window.hj.q||[]).push(arguments)
+        };
+
+        window._hjSettings = {
+            hjid:tarteaucitron.user.hotjarId,
+            hjsv:6
+        };
+
+        var src = 'https://static.hotjar.com/c/hotjar-'+window._hjSettings.hjid+'.js?sv='+window._hjSettings.hjsv;
+        tarteaucitron.addScript(src);
+    }
+};
