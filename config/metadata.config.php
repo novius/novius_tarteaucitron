@@ -13,7 +13,7 @@ if (\Str::starts_with(\Arr::get($version, 'fullname'), 'Chiba')) {
 
 return array(
     'name'    => 'Tarte Au Citron',
-    'version' => '1.0',
+    'version' => '1.1',
     'provider' => array(
         'name' => 'Novius',
     ),
