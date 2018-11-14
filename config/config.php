@@ -25,6 +25,8 @@ return array(
     ),
 
     'translations' => array(
+        "privacyUrl" =>__("Privacy policy"),
+        
         'adblock' => __('Hello! This site is transparent and lets you chose the 3rd party services you want to allow.'),
         'adblock_call' => __('Please disable your adblocker to start customizing.'),
         'reload' => __('Refresh the page'),
@@ -40,6 +42,14 @@ return array(
         'close' => __('Close'),
 
         'all' => __('Preference for all services'),
+
+        "toggleInfoBox" => __("Show/hide informations about cookie storage"),
+        "title" => __("Cookies management panel"),
+        "cookieDetail" => __("Cookie detail for"),
+        "ourSite" => __("on our site"),
+        "newWindow" => __("(new window)"),
+        "allowAll" => __("Allow all cookies"),
+        "denyAll" => __("Deny all cookies"),
 
         'info' => __('Protecting your privacy'),
         'disclaimer' => __('By allowing these third party services, you accept their cookies and the use of tracking technologies necessary for their proper functioning.'),
