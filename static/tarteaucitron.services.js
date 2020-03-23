@@ -688,7 +688,7 @@ tarteaucitron.services.adsense = {
     "key": "adsense",
     "type": "ads",
     "name": "Google Adsense",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": [],
     "js": function () {
@@ -707,7 +707,7 @@ tarteaucitron.services.googlepartners = {
     "key": "googlepartners",
     "type": "ads",
     "name": "Google Partners Badge",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://www.google.com/ads/preferences/",
     "needConsent": true,
     "cookies": [],
     "js": function () {
@@ -726,7 +726,7 @@ tarteaucitron.services.adsensesearchform = {
     "key": "adsensesearchform",
     "type": "ads",
     "name": "Google Adsense Search (form)",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": [],
     "js": function () {
@@ -740,7 +740,7 @@ tarteaucitron.services.adsensesearchresult = {
     "key": "adsensesearchresult",
     "type": "ads",
     "name": "Google Adsense Search (result)",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": [],
     "js": function () {
@@ -973,7 +973,7 @@ tarteaucitron.services.googlemaps = {
     "key": "googlemaps",
     "type": "api",
     "name": "Google Maps",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": [],
     "js": function () {
@@ -1017,7 +1017,7 @@ tarteaucitron.services.googletagmanager = {
     "key": "googletagmanager",
     "type": "api",
     "name": "Google Tag Manager",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": ['_ga', '_gat', '__utma', '__utmb', '__utmc', '__utmt', '__utmz', '__gads', '_drt_', 'FLC', 'exchange_uid', 'id', 'fc', 'rrs', 'rds', 'rv', 'uid', 'UIDR', 'UID', 'clid', 'ipinfo', 'acs'],
     "js": function () {
@@ -1064,7 +1064,7 @@ tarteaucitron.services.googletagmanagerwithfallback = {
     "key": "googletagmanagerwithfallback",
     "type": "api",
     "name": "Google Tag Manager",
-    "uri": "http://www.google.com/ads/preferences/",
+    "uri": "https://adssettings.google.com/authenticated?hl=fr",
     "needConsent": true,
     "cookies": ['_ga', '_gat', '__utma', '__utmb', '__utmc', '__utmt', '__utmz', '__gads', '_drt_', 'FLC', 'exchange_uid', 'id', 'fc', 'rrs', 'rds', 'rv', 'uid', 'UIDR', 'UID', 'clid', 'ipinfo', 'acs'],
     "js": function () {
