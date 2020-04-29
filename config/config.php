@@ -6,26 +6,25 @@ return array(
     'script' => 'static/apps/novius_tarteaucitron/tarteaucitron.js',
 
     'settings' => array(
-        // Panel selector
-        'hashtag' => '#tarteaucitron',
-        // Auto consent feature
-        'highPrivacy' => false,
-        // Position of the banner. Can be 'top' or 'bottom'
-        'orientation' => 'top',
-        // Display a message if an adblocker is detected
         'adblocker' => false,
-        // Show a small banner on bottom right
-        'showAlertSmall' => true,
-        // Display the list of cookies installed
+        'hashtag' => '#tarteaucitron',
+        'cookieName' => 'tarteaucitron',
+        'highPrivacy' => true,
+        'orientation' => 'bottom',
+        'bodyPosition' => 'bottom',
+        'removeCredit' => true,
+        'showAlertSmall' => false,
         'cookieslist' => true,
-        // Remove the credit link to tarteaucitron
-        'removeCredit' => false,
-        // Domain on which the cookie will be placed
-        //'cookieDomain' => '.example.com'
+        'handleBrowserDNTRequest' => false,
+        'acceptAllCta' => true,
+        'denyAllCta' => true,
+        'moreInfoLink' => true,
+        'privacyUrl' => '',
     ),
 
     'translations' => array(
-        'adblock' => __('Hello! This site is transparent and lets you chose the 3rd party services you want to allow.'),
+        'middleBarHead' => __("☝ 🍪"),
+        'adblock' => __('Hello! This site is transparent and lets you choose the 3rd party services you want to allow.'),
         'adblock_call' => __('Please disable your adblocker to start customizing.'),
         'reload' => __('Refresh the page'),
 
@@ -35,9 +34,11 @@ return array(
 
         'alertBigPrivacy' => __('This site uses cookies and gives you control over what you want to activate'),
         'alertSmall' => __('Manage services'),
-        'acceptAll' => __('OK, accept all'),
         'personalize' => __('Personalize'),
+        'acceptAll' => __('OK, accept all'),
         'close' => __('Close'),
+
+        'privacyUrl' => __('Privacy policy'),
 
         'all' => __('Preference for all services'),
 
@@ -52,6 +53,15 @@ return array(
         'more' => __('Read more'),
         'source' => __('View the official website'),
         'credit' => __('Cookies manager by tarteaucitron.js'),
+        'noServices' => __('This website does not use any cookie requiring your consent.'),
+
+        'toggleInfoBox' => __('Show/hide informations about cookie storage'),
+        'title' => __('Cookies management panel'),
+        'cookieDetail' => __('Cookie detail for'),
+        'ourSite' => __('on our site'),
+        'newWindow' => __('(new window)'),
+        'allowAll' => __('Allow all cookies'),
+        'denyAll' => __('Deny all cookies'),
 
         'fallback' => __('is disabled.'),
 

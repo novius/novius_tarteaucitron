@@ -1,6 +1,6 @@
 <?php
 
-Event::register('front.pageFound', function($params)
+Event::register('front.pageFound', function ($params)
 {
     $config = \Config::load('novius_tarteaucitron::config', false, true);
 
