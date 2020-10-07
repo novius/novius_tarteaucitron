@@ -22,7 +22,7 @@ return array(
         'privacyUrl' => '',
         'useExternalCss' => false,
         'useExternalJs' => false,
-        'mandatory' => false,
+        'mandatory' => true,
     ),
 
     'translations' => array(
