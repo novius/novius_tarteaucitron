@@ -68,6 +68,9 @@ return array(
 
         'fallback' => __('est désactivé.'),
 
+        'mandatoryTitle' => __('Cookies obligatoires'),
+        'mandatoryText' => __('Ce site utilise des cookies nécessaires à son bon fonctionnement qui ne peuvent pas être désactivés.'),
+        'mandatoryAllow' => __('Autoriser'),
 
         'ads' => array(
             'title' => __('Régies publicitaires'),

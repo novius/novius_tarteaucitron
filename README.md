@@ -64,4 +64,4 @@ This package is shipped with these variables that you can extend in your own pro
 
 This package is under [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl-3.0.html) or (at your option) any later version.
 
-[version]: https://img.shields.io/badge/version-2.0.1-%23d85a94.svg
+[version]: https://img.shields.io/badge/version-2.0.2-%23d85a94.svg
