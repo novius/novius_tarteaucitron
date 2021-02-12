@@ -10,7 +10,7 @@ return array(
         'hashtag' => '#tarteaucitron',
         'cookieName' => 'tarteaucitron',
         'highPrivacy' => true,
-        'orientation' => 'bottom',
+        'orientation' => 'middle',
         'bodyPosition' => 'bottom',
         'removeCredit' => true,
         'showAlertSmall' => false,
@@ -23,6 +23,7 @@ return array(
         'useExternalCss' => false,
         'useExternalJs' => false,
         'mandatory' => true,
+        'showIcon' => true,
     ),
 
     'translations' => array(
@@ -42,6 +43,16 @@ return array(
         'close' => __('Fermer'),
 
         'privacyUrl' => __('Politique de confidentialité'),
+        'labelIconButton' => __('Gestion des cookies'),
+        'alertBigTitle' => __('Notre site utilise des cookies,'),
+        'alertBigContent' => __("Pour personnaliser et améliorer votre confort d'utilisation. Nous utilisons essentiellement les données statistiques à des fins de performance et d'optimisation et pour vous apporter une meilleure expérience.<br> Pour obtenir davantage d'informations ou pour modifier vos préférences, cliquez sur le bouton « Personnaliser »."),
+        'alertBigContentMore' => __('Pour en savoir plus sur ces cookies et le traitement de vos données personnelles, consultez notre'),
+        'alertBigContentLabelLink' => __('charte des données personnelles'),
+
+        'info' => __('Protection de votre vie privée'),
+        'disclaimer' => __('Lorsque vous naviguez sur notre site, des cookies sont déposés sur votre navigateur. Pour certains d’entre eux, votre consentement est nécessaire. Cliquez sur chaque catégorie de cookies pour activer ou désactiver leur utilisation. Pour bénéficier de l’ensemble des fonctionnalités proposé par notre site (amélioration du site grâce aux statistiques de navigation, etc.), il est conseillé de garder l’activation des différentes catégories de cookies.'),
+        'disclaimerMoreInfoTxt' => __('Pour en savoir plus sur les cookies, les données que nous utilisons, les traitements que nous réalisons et les partenaires avec qui nous travaillons, vous pouvez consulter notre'),
+        'disclaimerMoreInfoBtnLabel' => __('politique de confidentialité'),
 
         'all' => __('Préférences pour tous les services'),
 
