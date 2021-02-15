@@ -38,4 +38,4 @@ What changed:
 
 This package is under [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl-3.0.html) or (at your option) any later version.
 
-[version]: https://img.shields.io/badge/version-2.0.3-%23d85a94.svg
+[version]: https://img.shields.io/badge/version-2.1.0-%23d85a94.svg
