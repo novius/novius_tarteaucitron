@@ -13,10 +13,11 @@ if (\Str::starts_with(\Arr::get($version, 'fullname'), 'Chiba')) {
 
 return array(
     'name' => 'Tarte Au Citron',
-    'version' => '2.1.1',
+    'version' => '2.1.2',
     'provider' => array(
         'name' => 'Novius',
     ),
     'namespace' => 'Novius\Tarteaucitron',
     'extends' => $extends,
+    'permissions' => array(),
 );
