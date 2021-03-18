@@ -1,119 +1,83 @@
 <?php
 
 return array(
-
-    'style' => 'static/apps/novius_tarteaucitron/css/tarteaucitron.css',
-    'script' => 'static/apps/novius_tarteaucitron/tarteaucitron.js',
-
-    'settings' => array(
-        'adblocker' => false,
-        'hashtag' => '#tarteaucitron',
-        'cookieName' => 'tarteaucitron',
-        'highPrivacy' => true,
-        'orientation' => 'middle',
-        'bodyPosition' => 'bottom',
-        'removeCredit' => true,
-        'showAlertSmall' => false,
-        'cookieslist' => true,
-        'handleBrowserDNTRequest' => false,
-        'acceptAllCta' => true,
-        'denyAllCta' => true,
-        'moreInfoLink' => true,
-        'privacyUrl' => '',
-        'useExternalCss' => false,
-        'useExternalJs' => false,
-        'mandatory' => true,
-        'showIcon' => true,
-    ),
+    'script' => 'https://cdn.novius.net/novius-tac/tarteaucitron-1.4.x.js',
 
     'translations' => array(
-        'middleBarHead' => __('☝ 🍪'),
-        'adblock' => __('Bonjour! Ce site joue la transparence et vous donne le choix des services tiers à activer.'),
-        'adblock_call' => __('Merci de désactiver votre adblocker pour commencer la personnalisation.'),
-        'reload' => __('Recharger la page'),
-
-        'alertBigScroll' => __('En continuant de défiler,'),
-        'alertBigClick' => __('En poursuivant votre navigation,'),
-        'alertBig' => __("vous acceptez l'utilisation de services tiers pouvant installer des cookies"),
-
-        'alertBigPrivacy' => __('Ce site utilise des cookies et vous donne le contrôle sur ce que vous souhaitez activer'),
-        'alertSmall' => __('Gestion des services'),
-        'acceptAll' => __('Tout accepter'),
-        'personalize' => __('Personnaliser'),
-        'close' => __('Fermer'),
-
-        'privacyUrl' => __('Politique de confidentialité'),
-        'labelIconButton' => __('Gestion des cookies'),
-        'alertBigTitle' => __('Notre site utilise des cookies,'),
-        'alertBigContent' => __("Pour personnaliser et améliorer votre confort d'utilisation. Nous utilisons essentiellement les données statistiques à des fins de performance et d'optimisation et pour vous apporter une meilleure expérience.<br> Pour obtenir davantage d'informations ou pour modifier vos préférences, cliquez sur le bouton « Personnaliser »."),
-        'alertBigContentMore' => __('Pour en savoir plus sur ces cookies et le traitement de vos données personnelles, consultez notre'),
-        'alertBigContentLabelLink' => __('charte des données personnelles'),
-
-        'info' => __('Protection de votre vie privée'),
-        'disclaimer' => __('Lorsque vous naviguez sur notre site, des cookies sont déposés sur votre navigateur. Pour certains d’entre eux, votre consentement est nécessaire. Cliquez sur chaque catégorie de cookies pour activer ou désactiver leur utilisation. Pour bénéficier de l’ensemble des fonctionnalités proposé par notre site (amélioration du site grâce aux statistiques de navigation, etc.), il est conseillé de garder l’activation des différentes catégories de cookies.'),
-        'disclaimerMoreInfoTxt' => __('Pour en savoir plus sur les cookies, les données que nous utilisons, les traitements que nous réalisons et les partenaires avec qui nous travaillons, vous pouvez consulter notre'),
-        'disclaimerMoreInfoBtnLabel' => __('politique de confidentialité'),
-
-        'all' => __('Préférences pour tous les services'),
-
-        'info' => __('Protection de votre vie privée'),
-        'disclaimer' => __('Ce site utilise différents cookies, afin de nous permettre de réaliser des statistiques de visite et d’optimiser votre parcours de navigation. Pour en savoir plus, vous pouvez consultez notre charte cookies :'),
-        'allow' => __('Autoriser'),
-        'deny' => __('Interdire'),
-        'noCookie' => __('Ce service ne dépose aucun cookie.'),
-        'useCookie' => __('Ce service peut déposer'),
-        'useCookieCurrent' => __('Ce service a déposé'),
-        'useNoCookie' => __("Ce service n'a déposé aucun cookie."),
-        'more' => __('En savoir plus'),
-        'source' => __('Voir le site officiel'),
-        'credit' => __('Gestion des cookies par tarteaucitron.js'),
-        'noServices' => __("Ce site n'utilise aucun cookie nécessitant votre consentement."),
-
-        'toggleInfoBox' => __('Afficher/masquer les informations sur le stockage des cookies'),
-        'title' => __('Panneau de gestion des cookies'),
-        'cookieDetail' => __('Détail des cookies'),
-        'ourSite' => __('sur notre site'),
-        'newWindow' => __('(nouvelle fenêtre)'),
-        'allowAll' => __('Autoriser tous les cookies'),
-        'denyAll' => __('Tout refuser'),
-
-        'fallback' => __('est désactivé.'),
-
-        'mandatoryTitle' => __('Cookies obligatoires'),
-        'mandatoryText' => __('Ce site utilise des cookies nécessaires à son bon fonctionnement qui ne peuvent pas être désactivés.'),
-        'mandatoryAllow' => __('Autoriser'),
+        'adblock' => __('Hello! This site is transparent and lets you chose the 3rd party services you want to allow.'),
+        'adblock_call' => __('Please disable your adblocker to start customizing.'),
+        'reload' => __('Refresh the page'),
+        'alertBigScroll' => __('By continuing to scroll,'),
+        'alertBigClick' => __('If you continue to browse this website,'),
+        'alertBig' => __('you are allowing all third-party services'),
+        'alertBigPrivacy' => __('This site uses cookies and gives you control over what you want to activate'),
+        'alertSmall' => __('Manage services'),
+        'personalize' => __('Personalize'),
+        'acceptAll' => __('Accept all'),
+        'close' => __('Close'),
+        'labelIconButton' => __("Manage cookies"),
+        'alertBigTitle' => __("This site uses cookies,"),
+        'alertBigContent' => __("To personalize and improve your comfort of use. We mainly use statistical data for performance and optimization purposes and to bring you a better experience.<br> For more information or to change your preferences, click on the Customize button."),
+        'alertBigContentMore' => __("To learn more about these cookies and the processing of your personal data, please read our"),
+        'alertBigContentLabelLink' => __("privacy policy"),
+        'all' => __('Preference for all services'),
+        'info' => __('Protecting your privacy'),
+        'disclaimer' => __('By allowing these third party services, you accept their cookies and the use of tracking technologies necessary for their proper functioning.'),
+        'disclaimerMoreInfoTxt' => __('To learn more about cookies, the data we use, the processing we do and the partners we work with, you can consult our'),
+        'disclaimerMoreInfoBtnLabel' => __('privacy policy'),
+        'allow' => __('Allow'),
+        'deny' => __('Deny'),
+        'noCookie' => __('This service does not use cookie.'),
+        'useCookie' => __('This service can install'),
+        'useCookieCurrent' => __('This service has installed'),
+        'useNoCookie' => __('This service has not installed any cookie.'),
+        'more' => __('Read more'),
+        'source' => __('View the official website'),
+        'noServices' => __('This website does not use any cookie requiring your consent.'),
+        'toggleInfoBox' => __('Show/hide informations about cookie storage'),
+        'title' => __('Cookies management panel'),
+        'cookieDetail' => __('Cookie detail for'),
+        'ourSite' => __('on our site'),
+        'newWindow' => __('(new window)'),
+        'allowAll' => __('Allow all cookies'),
+        'denyAll' => __('Deny all'),
+        'fallback' => __('is disabled.'),
 
         'ads' => array(
-            'title' => __('Régies publicitaires'),
-            'details' => __('Les régies publicitaires permettent de générer des revenus en commercialisant les espaces publicitaires du site.')
+            'title' => __('Advertising network'),
+            'details' => __('Ad networks can generate revenue by selling advertising space on the site.'),
         ),
         'analytic' => array(
-            'title' => __("Mesure d'audience"),
-            'details' => __("Les services de mesure d'audience permettent de générer des statistiques de fréquentation utiles à l'amélioration du site.")
+            'title' => __('Audience measurement'),
+            'details' => __('The audience measurement services used to generate useful statistics attendance to improve the site.'),
         ),
         'social' => array(
-            'title' => __('Réseaux sociaux'),
-            'details' => __("Les réseaux sociaux permettent d'améliorer la convivialité du site et aident à sa promotion via les partages.")
+            'title' => __('Social networks'),
+            'details' => __('Social networks can improve the usability of the site and help to promote it via the shares.'),
         ),
         'video' => array(
-            'title' => __('Vidéos'),
-            'details' => __("Les services de partage de vidéo permettent d'enrichir le site de contenu multimédia et augmentent sa visibilité.")
+            'title' => __('Videos'),
+            'details' => __('Video sharing services help to add rich media on the site and increase its visibility.'),
         ),
         'comment' => array(
-            'title' => __('Commentaires'),
-            'details' => __('Les gestionnaires de commentaires facilitent le dépôt de vos commentaires et luttent contre le spam.')
+            'title' => __('Comments'),
+            'details' => __('Comments managers facilitate the filing of comments and fight against spam.'),
         ),
         'support' => array(
             'title' => __('Support'),
-            'details' => __("Les services de support vous permettent d'entrer en contact avec l'équipe du site et d'aider à son amélioration.")
+            'details' => __('Support services allow you to get in touch with the site team and help to improve it.'),
         ),
         'api' => array(
             'title' => __('APIs'),
-            'details' => __('Les APIs permettent de charger des scripts : géolocalisation, moteurs de recherche, traductions, ...')
+            'details' => __('APIs are used to load scripts: geolocation, search engines, translations, ...'),
         ),
         'other' => array(
-            'title' => __('Autre'),
-            'details' => __('Services visant à afficher du contenu web.')
-        )
-    )
+            'title' => __('Other'),
+            'details' => __('Services to display web content.'),
+        ),
+
+        'mandatoryTitle' => __('Mandatory cookies'),
+        'mandatoryText' => __('This site uses cookies necessary for its proper functioning which cannot be deactivated.'),
+        'mandatoryAllow' => __('Allow'),
+    ),
 );
