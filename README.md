@@ -8,7 +8,7 @@ Cette application est un fork de [tarteaucitron.js](https://github.com/AmauriC/t
 
 ## Exemple d'installation:
 
-Dans votre back-office il faudra ajouter le script suivant :
+Sur votre site, en front, il faudra ajouter le script suivant :
 
 ```html
 <script>
