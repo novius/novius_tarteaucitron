@@ -32,7 +32,7 @@ Dans votre back-office il faudra ajouter le script suivant :
 ```
 
 La globale `window.tarteaucitron.overrideLang` est importante car elle permet de modifier les textes via l'application de texte paramétrable.  
-Concrètement dans le core de tarteaucitron.js, s'il trouve cette variable, il n'utilise pas ses propres fichiers JS de langue. S'il ne l'a trouve pas il utilisera les fichiers de langue JS.
+Concrètement dans le core de tarteaucitron.js, s'il trouve cette variable, il n'utilise pas ses propres fichiers JS de langue. S'il ne la trouve pas, il utilisera les fichiers de langue originaux de TAC.
 
 ## Montée en version du CDN
 
