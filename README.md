@@ -47,4 +47,4 @@ Lorsqu'il y aura une montée de version sur le CDN (1.5.x ou 2.0.x), il faudra m
 
 This package is under [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl-3.0.html) or (at your option) any later version.
 
-[version]: https://img.shields.io/badge/version-3.0.1-%23d85a94.svg
+[version]: https://img.shields.io/badge/version-3.1.0-%23d85a94.svg
