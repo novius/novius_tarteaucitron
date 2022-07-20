@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'script' => 'https://cdn.novius.net/novius-tac/tarteaucitron-1.3.x.js',
+    'script' => 'https://cdn.novius.net/novius-tac/tarteaucitron-1.4.x.js',
 
     'translations' => array(
         'adblock' => __('Hello! This site is transparent and lets you chose the 3rd party services you want to allow.'),

@@ -36,8 +36,8 @@ Concrètement dans le core de tarteaucitron.js, s'il trouve cette variable, il n
 
 ## Montée en version du CDN
 
-La version de tarteaucitron.js disponible actuellement sur le CDN est la version `1.3.x`. Tant qu'il n'y a pas de montée en version majeure il n'y aura rien besoin de changer sur cette application.  
-Lorsqu'il y aura une montée de version sur le CDN (1.4.x ou 2.0.x), il faudra modifier l'url qui se trouve dans `config/config.php` sur cette application ou la surcharger sur votre projet.  
+La version de tarteaucitron.js disponible actuellement sur le CDN est la version `1.4.x`. Tant qu'il n'y a pas de montée en version majeure il n'y aura rien besoin de changer sur cette application.  
+Lorsqu'il y aura une montée de version sur le CDN (1.5.x ou 2.0.x), il faudra modifier l'url qui se trouve dans `config/config.php` sur cette application ou la surcharger sur votre projet.  
 
 **Exemple :**  
 
@@ -47,4 +47,4 @@ Lorsqu'il y aura une montée de version sur le CDN (1.4.x ou 2.0.x), il faudra m
 
 This package is under [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl-3.0.html) or (at your option) any later version.
 
-[version]: https://img.shields.io/badge/version-3.0.0-%23d85a94.svg
+[version]: https://img.shields.io/badge/version-3.1.0-%23d85a94.svg
